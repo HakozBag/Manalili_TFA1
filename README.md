@@ -11,14 +11,15 @@ A basic four-page Point-of-Sale system developed using CodeIgniter 4.
 
 ## Data
 
-Customer and user records use static PHP arrays.
+Customer and user records are stored using static PHP arrays.
 No database or SQL is used in this version.
 
-## How to Run
+## Setup
 
 1. Install PHP and Composer.
 2. Run `composer install`.
-3. Start the server:
+3. Configure the `.env` file and set the `app.baseURL`.
+4. Start the application:
 
 ```bash
 php spark serve
